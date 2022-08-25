@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Free Generation School</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <img src="{{url_for('static',filename='logo.jpg')}}" style="height: 30px;width: 30px;border-radius: 50%;">
+        <a class="navbar-brand" href="#"><b style="color: white;padding-left: 10px;">Free Generation School</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#" style="color: white;">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="color: white;">About Us</a>
+                </li>                             
+            </ul>            
+        </div>
+    </nav>
+    <img src="{{url_for('static',filename="stud.webp")}}" style="width: 100%;" alt=""> 
+    <br>
+    <div>
+        <div style="width: auto; height:auto; margin: auto; display: flex; justify-content:space-around; flex-wrap:wrap;">
+            <div class="card" style="width: 50%;">
+                <img src="{{url_for('static',filename="resize-16612346431296748827regi.jpg")}}"  class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text"><h2>Students Registration</h2></p>
+                    <a href="http://127.0.0.1:5000/register"><button type="button" class="btn btn-dark">Register</button></a>
+                </div>
+            </div>
+            <div class="card" style="width: 50%;">
+                <img src="{{url_for('static',filename='log.jpg')}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text"><h2>Teacher's Login</h2></p>
+                    <a href="http://127.0.0.1:5000/login"><button type="button" class="btn btn-dark">Login</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <br>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+    <footer>
+        <div style="height: auto;width:auto;background-color:black;color:white;">
+            <div style="width: 80vw; height:auto; margin: auto; display: flex; justify-content:space-around; flex-wrap:wrap;">
+                <div>
+                    <h3>About Us</h3>
+                    <ul style="color: grey;">
+                        <li>ADMISSIONS</li>
+                        <li>ACADEMICS</li>
+                        <LI>SPORTS</LI>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Location</h3>
+                    <ul style="color: grey;">
+                        <li>Free Generation School, Vajreshwari Nagar, Akkalkot Road, Solapur, Maharashtra</li>
+                        <li>principal.vcems@vcems.edu.in</li>
+                        <br>
+                        <li>Tel:+91 9822458765</li>
+                        <li>Tel:+91 8788908765</li>
+                        <li>Tel:+91 9765485432</li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </footer>
+</body>
+
+</html>
